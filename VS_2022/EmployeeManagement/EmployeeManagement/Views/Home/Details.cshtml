@@ -1,0 +1,29 @@
+﻿@model Employee
+@{
+	ViewBag.Title = "View Page";
+}
+<div class="container">
+    <div class="row justify-content-center m-3">
+        <div class="col-sm-8">
+            <div class="card text-center">
+                <img src="~/images/beauti.jpg" class="card-img-top" alt="..." asp-append-version="true">
+                <div class="card-header">
+                    <h1>@Model.Name</h1>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-text">Id : @Model.Id</h5>
+                    <h5 class="card-text">Email : @Model.Email</h5>
+                    <h5 class="card-text">Department : @Model.Department</h5>
+
+                </div>
+                <div class="card-footer">
+                    <a asp-action="index" asp-controller="home" class="btn btn-primary">Back</a>
+                    <a asp-action="edit" asp-controller="home" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+                    <a asp-action="delete" asp-controller="home" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+        </div>

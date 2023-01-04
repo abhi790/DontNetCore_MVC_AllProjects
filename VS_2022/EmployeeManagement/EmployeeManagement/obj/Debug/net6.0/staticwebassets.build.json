@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "gkEClwN752q+pyx+VNMOjOqgrLckqj6VkZP1EN4JlnA=",
+  "Source": "EmployeeManagement",
+  "BasePath": "_content/EmployeeManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EmployeeManagement\\wwwroot",
+      "Source": "EmployeeManagement",
+      "ContentRoot": "C:\\GitVersioning\\GitHub\\VenkatLearning\\MVC_CRUD\\DotnetCoreMVC_GIt_repository\\DontNetCore_MVC_AllProjects\\VS_2022\\EmployeeManagement\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\GitVersioning\\GitHub\\VenkatLearning\\MVC_CRUD\\DotnetCoreMVC_GIt_repository\\DontNetCore_MVC_AllProjects\\VS_2022\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\beauti.jpg",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GitVersioning\\GitHub\\VenkatLearning\\MVC_CRUD\\DotnetCoreMVC_GIt_repository\\DontNetCore_MVC_AllProjects\\VS_2022\\EmployeeManagement\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/beauti.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\beauti.jpg"
+    },
+    {
+      "Identity": "C:\\GitVersioning\\GitHub\\VenkatLearning\\MVC_CRUD\\DotnetCoreMVC_GIt_repository\\DontNetCore_MVC_AllProjects\\VS_2022\\EmployeeManagement\\EmployeeManagement\\wwwroot\\images\\cesar.jpg",
+      "SourceId": "EmployeeManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GitVersioning\\GitHub\\VenkatLearning\\MVC_CRUD\\DotnetCoreMVC_GIt_repository\\DontNetCore_MVC_AllProjects\\VS_2022\\EmployeeManagement\\EmployeeManagement\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement",
+      "RelativePath": "images/cesar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cesar.jpg"
+    }
+  ]
+}

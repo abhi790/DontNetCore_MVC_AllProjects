@@ -1,0 +1,35 @@
+﻿@model List<Employee>
+@{
+	ViewBag.Title = "Index Page";
+}
+<div class="container">
+    <div class="row  row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
+        @foreach (var employee in Model)
+        {
+        <div class="col">
+            <div class="card text-center">
+                <img src="~/images/beauti.jpg" class="card-img-top" alt="..." asp-append-version="true">
+                <div class="card-header">
+                    <h1>@employee.Name</h1>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-text">Id : @employee.Id</h5>
+                    <h5 class="card-text">Email : @employee.Email</h5>
+                    <h5 class="card-text">Department : @employee.Department</h5>
+
+                </div>
+                <div class="card-footer">
+                    <a asp-action="details" asp-controller="home" asp-route-id="@employee.Id" class="btn btn-primary">View</a>
+                    <a asp-action="edit" asp-controller="home" asp-route-id="@employee.Id" class="btn btn-primary">Edit</a>
+                    <a asp-action="delete" asp-controller="home" asp-route-id="@employee.Id" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+            
+        }
+    </div>
+    <div class="row mt-3">
+        <a asp-action="create" asp-controller="home" class="btn btn-primary" style="width:auto;">Create</a>
+
+    </div>
+    </div>

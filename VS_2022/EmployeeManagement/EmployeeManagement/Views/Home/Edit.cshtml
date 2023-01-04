@@ -1,0 +1,33 @@
+﻿@model EditEmployeeViewModel
+@{
+	ViewBag.Title = "Edit Page";
+}
+<div class="container">
+    <form method="post" asp-action="edit" asp-controller="home">
+        <div>
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Email">Email</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Department">Department</label>
+            <input asp-for="Department" class="form-control" />
+            <span asp-validation-for="Department" class="text-danger"></span>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-1">
+                <button type="submit" class="btn btn-primary">Edit</button>
+            </div>
+            <div class="col-1 me-auto">
+                <a asp-action="index" asp-controller="home" class="btn btn-primary">Cancel</a>
+            </div>
+        </div>
+    </form>
+
+</div>
